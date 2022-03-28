@@ -5,6 +5,8 @@ Vue Frontend changes
 1.	Fixed axios by installing the library VueAxios.
 2.	Changed selectFile method from HomeComponent, all the columns were not being placed correctly, I had to iterate the columns variable correctly by subtracting 1 from the j variable.
 3.	Changed importData method from HomeComponent by adding a variable for the loop that to iterate all the columns since the custom column wasn’t being incorporated.
+
+
 Laravel Backend changes
 -----------
 1.	Changed the import route from GET to POST as well as its path since it was pointing to the REQUEST file and not the CONTROLLER.
